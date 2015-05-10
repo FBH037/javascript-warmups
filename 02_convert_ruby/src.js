@@ -12,8 +12,10 @@ module.exports = {
   */
 
   returnArray: function() {
-    // your code here
-  }
+    return [1,2,3,4]
+
+  },
+
 
   /*
     def divide(numerator, denominator)
@@ -21,7 +23,9 @@ module.exports = {
     end
   */
 
-  // your code here for divide
+  divide: function(num1, num2){
+    return (num1/num2)
+  },
 
   /*
     def add(a,b)
@@ -29,7 +33,9 @@ module.exports = {
     end
   */
 
-  // your code here for add
+  add: function(num1, num2){
+    return (num1 + num2)
+  },
 
   /*
     def power(base, exponent)
@@ -37,21 +43,26 @@ module.exports = {
     end
   */
 
-  // your code here for power
-
+  power: function(base, exponent){
+    return Math.pow(base, exponent)
+  },
   /*
     def concatenate(string_1, string_2)
       string_1 + string_2
     end
   */
 
-  // your code here for concatenate
-
+  concatenate: function(st1, st2){
+    return (st1 + st2)
+  },
   /*
     def sub(string, char, replacement)
       string.sub(char, replacement)
     end
   */
 
-  // your code here for sub
+  sub: function(string, char, replacement){
+    return string.replace(char ,replacement)
+  }
+
 }
